@@ -1,7 +1,19 @@
 aid: paperstack
 name: Paperstack
-description: Paperstack is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Paperstack is a Canadian fintech operating a private-credit / working-capital
+  financing platform for direct-to-consumer (DTC), e-commerce, and retail
+  consumer brands. It provides non-dilutive, revenue-based funding of up to
+  $5,000,000 that brands can use without restrictions to purchase inventory,
+  invest in advertising, and finance payroll, with transparent flat fees
+  (typically 4-10%) and no origination or late fees. Paperstack couples a
+  network of lending partners with proprietary AI/ML underwriting software that
+  integrates directly into a brand's financial and e-commerce data to assess
+  creditworthiness and project future performance in real time. Founded by Assel
+  Beglinova (CEO) and Vadim Lidich (CTO) and backed by Techstars, the company has
+  processed over 1,500 funding applications. As of this enrichment pass
+  Paperstack publishes a customer-facing product and marketing site only; it
+  exposes no public developer API, SDKs, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/paperstack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,37 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/64cbb2aa171a82aed9aef455/64cbb485918c3487dac10823_paperstack-logo-transparent.webp
 tags:
 - Company
+- Financial Services
+- Fintech
+- Lending
+- Working Capital
+- Revenue-Based Financing
+- Private Credit
+- E-Commerce
+- Direct-to-Consumer
+- Canada
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +59,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/paperstack-domain-security.yml
 - type: Website
-  url: https://paperstack.ca/
+  url: https://www.paperstack.ai/
+- type: About
+  url: https://www.paperstack.ai/about-paperstack
+- type: Blog
+  url: https://www.paperstack.ai/blog
+- type: SignUp
+  url: https://paperstack.typeform.com/onboarding
+- type: Support
+  url: mailto:support@paperstack.ai
+- type: TermsOfService
+  url: https://www.paperstack.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.paperstack.ai/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getpaperstack
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/paperstack
